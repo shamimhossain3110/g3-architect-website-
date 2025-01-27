@@ -196,9 +196,23 @@ main > section {
 .sponsor-companies {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 130px;
 }
 .sponsor-companies img {
   filter: grayscale(100%);
+}
+
+/* footer related style */
+footer {
+  text-align: center;
+  background-color: #fff4e7;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer-container {
+  font-size: 1.25rem;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 /* responsive media query */
@@ -211,6 +225,7 @@ main > section {
   .features {
     flex-direction: column;
   }
+
   .team-img-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -227,7 +242,7 @@ main > section {
     justify-items: center;
     gap: 50px;
   }
-  #experience-badge{
+  #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
   }
@@ -247,7 +262,7 @@ main > section {
     justify-items: center;
     gap: 50px;
   }
-  #experience-badge{
+  #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
   }
