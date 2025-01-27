@@ -12,10 +12,21 @@
   display: flex;
 }
 
+.btn-primary {
+  background-color: #ff900e;
+  color: white;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
 /* dark 02 */
 .text-gray {
   color: #424242;
 }
+/* dark 03 */
 .text-light-gray {
   color: #727272;
 }
@@ -27,6 +38,7 @@
 /* navbar related style  */
 .navbar {
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-item {
@@ -41,4 +53,40 @@
 .banner {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.brand {
+  color: var(--Dark-01, #131313);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* banner related style */
+
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title {
+  color: var(--Dark-01, #131313);
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  font-size: 1rem;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-links {
+    flex-direction: column;
+  }
 }
